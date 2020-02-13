@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+.header_area {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header_area .navbar-expand-lg {
+    padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo a {
+    color: #fff;
+    font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.navbar-expand-lg .navbar-nav li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    padding-left: 28px !important;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-.App-link {
-  color: #61dafb;
+div#navbarsExampleDefault {
+    text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-toggler {
+    background: #fff;
+    padding: 0;
+    font-size: 24px;
+    line-height: 33px;
+    height: 35px;
+    width: 38px;
+    cursor: pointer;
+}
+
+.navbar-expand-lg .dropdown-menu a {
+    color: #333 !important;
+}
+
+.footer-area {
+    background: #24292e;
+    padding: 12px 0px;
+}
+
+.footer-logo a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-menu li {
+    display: inline-block;
+}
+
+.footer-menu a {
+    display: block;
+    color: #fff;
+    padding: 0px 30px;
+}
+
+.single- img {
+    width: 100%;
 }
